@@ -7,7 +7,7 @@ title: Hans Zhang的博客
 subtitle: 
 description:
 author: Hans Zhang
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,11 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: Jekyll
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+theme: next
+
+# Social links
+social:
+  github: https://github.com/ezburg
+
+avatar: https://avatars2.githubusercontent.com/u/3062319?v=3&s=460
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
