@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.zhanghuanchong.com
+url: http://ezburg.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,4 +75,4 @@ avatar: https://avatars2.githubusercontent.com/u/3062319?v=3&s=460
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhanghuanchong/zhanghuanchong.github.io.git
+  repo: https://github.com/ezburg/ezburg.github.io.git
