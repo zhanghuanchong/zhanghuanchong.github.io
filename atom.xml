@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://zhanghuanchong.github.io/"/>
-  <updated>2016-06-11T07:57:51.000Z</updated>
+  <updated>2016-06-11T08:00:53.000Z</updated>
   <id>http://zhanghuanchong.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/"/>
     <id>http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/</id>
     <published>2016-06-11T07:36:52.000Z</published>
-    <updated>2016-06-11T07:57:51.000Z</updated>
+    <updated>2016-06-11T08:00:53.000Z</updated>
     <content type="html"><![CDATA[<p>以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。</p>
 <ul>
 <li>在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。</li>
