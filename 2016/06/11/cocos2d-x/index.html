@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="iOS,PHP,Cocos2d-x,JavaScript, AngularJS" />
+  <meta name="keywords" content="cocos2d-x, cocos2d-html, javascript," />
 
 
 
@@ -53,15 +53,25 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hans Zhang的博客">
-<meta property="og:url" content="http://zhanghuanchong.github.io/index.html">
+<meta name="description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
+
+在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
+在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cocos2d-x 开发中遇到的坑们">
+<meta property="og:url" content="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/index.html">
 <meta property="og:site_name" content="Hans Zhang的博客">
-<meta property="og:description">
+<meta property="og:description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
+
+在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
+在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
+<meta property="og:updated_time" content="2016-06-11T07:44:12.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hans Zhang的博客">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Cocos2d-x 开发中遇到的坑们">
+<meta name="twitter:description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
+
+在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
+在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
 
 
 
@@ -73,7 +83,7 @@
   };
 </script>
 
-  <title> Hans Zhang的博客 </title>
+  <title> Cocos2d-x 开发中遇到的坑们 | Hans Zhang的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -104,9 +114,7 @@
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,24 +221,9 @@
       <div class="main-inner">
         <div id="content" class="content">
           
-  <section id="posts" class="posts-expand">
 
+  <div id="posts" class="posts-expand">
     
-
-    
-    
-      
-      
-        
-        
-        
-      
-
-      
-    
-
-    
-      
 
   
   
@@ -250,10 +243,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/06/11/cocos2d-x/" itemprop="url">
-                  Cocos2d-x 开发中遇到的坑们
-                </a>
+                Cocos2d-x 开发中遇到的坑们
               
             
           </h1>
@@ -293,39 +283,56 @@
       
 
       
-        
-          <span itemprop="articleBody">
-            
-              <p>以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。</p>
+        <span itemprop="articleBody"><p>以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。</p>
 <ul>
 <li>在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。</li>
 <li>在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xcode的bug…</li>
 </ul>
-
-            
-          </span>
-        
+</span>
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/cocos2d-x-cocos2d-html-javascript/" rel="tag">#cocos2d-x, cocos2d-html, javascript</a>
+          
+        </div>
       
 
       
+
       
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
 
-  </section>
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/06/11/cocos2d-x/"
+     data-title="Cocos2d-x 开发中遇到的坑们"
+     data-content=""
+     data-url="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
 
-  
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
         </div>
@@ -334,6 +341,14 @@
 
 
         
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/06/11/cocos2d-x/"
+           data-title="Cocos2d-x 开发中遇到的坑们" data-url="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/">
+      </div>
+    
+  </div>
+
 
       </div>
 
@@ -354,8 +369,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" src="https://avatars2.githubusercontent.com/u/3062319?v=3&s=460" alt="Hans Zhang" itemprop="image"/>
           <p class="site-author-name" itemprop="name">Hans Zhang</p>
@@ -417,6 +441,23 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
       
 
     </div>
@@ -504,6 +545,167 @@
   <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    motionMiddleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+      if (CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
 
   <script type="text/javascript" src="/js/bootstrap.js"></script>
 
