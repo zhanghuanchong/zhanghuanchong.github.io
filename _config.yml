@@ -73,6 +73,22 @@ social:
 
 avatar: https://avatars2.githubusercontent.com/u/3062319?v=3&s=460
 
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
+markdown:
+  render:
+    html: true
+
+# https://github.com/bubkoo/hexo-toc
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
