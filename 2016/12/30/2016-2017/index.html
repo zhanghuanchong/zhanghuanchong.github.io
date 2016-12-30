@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="cocos2d-x,cocos2d-html,javascript," />
+  <meta name="keywords" content="生活随笔," />
 
 
 
@@ -53,25 +53,31 @@
 
 
 
-<meta name="description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
-
-在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
-在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
+<meta name="description" content="回顾2016完成了：没有完成：展望2017我的计划：
+至少一个 github 项目 star 数 100+
+jetbrains-ssh-plugin 和 jetbrains-git-committer-switch-plugin 项目发布
+hexo-desktop 发布，采用 Electron 开发
+熟练使用 Vue.js
+熟悉 Unity3D 及 虚拟/增强现实技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Cocos2d-x 开发中遇到的坑们">
-<meta property="og:url" content="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/index.html">
+<meta property="og:title" content="回顾2016，展望2017">
+<meta property="og:url" content="http://zhanghuanchong.github.io/2016/12/30/2016-2017/index.html">
 <meta property="og:site_name" content="Hans Zhang的博客">
-<meta property="og:description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
-
-在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
-在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
-<meta property="og:updated_time" content="2016-12-28T13:56:47.000Z">
+<meta property="og:description" content="回顾2016完成了：没有完成：展望2017我的计划：
+至少一个 github 项目 star 数 100+
+jetbrains-ssh-plugin 和 jetbrains-git-committer-switch-plugin 项目发布
+hexo-desktop 发布，采用 Electron 开发
+熟练使用 Vue.js
+熟悉 Unity3D 及 虚拟/增强现实技术">
+<meta property="og:updated_time" content="2016-12-30T12:44:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cocos2d-x 开发中遇到的坑们">
-<meta name="twitter:description" content="以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。
-
-在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。
-在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xc">
+<meta name="twitter:title" content="回顾2016，展望2017">
+<meta name="twitter:description" content="回顾2016完成了：没有完成：展望2017我的计划：
+至少一个 github 项目 star 数 100+
+jetbrains-ssh-plugin 和 jetbrains-git-committer-switch-plugin 项目发布
+hexo-desktop 发布，采用 Electron 开发
+熟练使用 Vue.js
+熟悉 Unity3D 及 虚拟/增强现实技术">
 
 
 
@@ -83,7 +89,7 @@
   };
 </script>
 
-  <title> Cocos2d-x 开发中遇到的坑们 | Hans Zhang的博客 </title>
+  <title> 回顾2016，展望2017 | Hans Zhang的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -243,7 +249,7 @@
             
             
               
-                Cocos2d-x 开发中遇到的坑们
+                回顾2016，展望2017
               
             
           </h1>
@@ -252,8 +258,8 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2016-06-11T15:36:52+08:00" content="2016-06-11">
-              2016-06-11
+            <time itemprop="dateCreated" datetime="2016-12-30T15:38:35+08:00" content="2016-12-30">
+              2016-12-30
             </time>
           </span>
 
@@ -263,8 +269,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/06/11/cocos2d-x/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/11/cocos2d-x/" itemprop="commentsCount"></span>
+                <a href="/2016/12/30/2016-2017/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/30/2016-2017/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -283,10 +289,12 @@
       
 
       
-        <span itemprop="articleBody"><p>以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。</p>
-<ul>
-<li>在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。</li>
-<li>在切换多个Cocos2d-x版本时, 记得在Xcode中删除编译文件夹, 而不是简单地Clean。否则会遇到很多奇怪的编译错误。。。感觉是Xcode的bug…</li>
+        <span itemprop="articleBody"><h2 id="u56DE_u987E2016"><a href="#u56DE_u987E2016" class="headerlink" title="回顾2016"></a>回顾2016</h2><h4 id="u5B8C_u6210_u4E86_uFF1A"><a href="#u5B8C_u6210_u4E86_uFF1A" class="headerlink" title="完成了："></a>完成了：</h4><h4 id="u6CA1_u6709_u5B8C_u6210_uFF1A"><a href="#u6CA1_u6709_u5B8C_u6210_uFF1A" class="headerlink" title="没有完成："></a>没有完成：</h4><h2 id="u5C55_u671B2017"><a href="#u5C55_u671B2017" class="headerlink" title="展望2017"></a>展望2017</h2><h4 id="u6211_u7684_u8BA1_u5212_uFF1A"><a href="#u6211_u7684_u8BA1_u5212_uFF1A" class="headerlink" title="我的计划："></a>我的计划：</h4><ul>
+<li>至少一个 github 项目 star 数 100+</li>
+<li>jetbrains-ssh-plugin 和 jetbrains-git-committer-switch-plugin 项目发布</li>
+<li>hexo-desktop 发布，采用 Electron 开发</li>
+<li>熟练使用 Vue.js</li>
+<li>熟悉 Unity3D 及 虚拟/增强现实技术</li>
 </ul>
 </span>
       
@@ -296,11 +304,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/cocos2d-x/" rel="tag">#cocos2d-x</a>
-          
-            <a href="/tags/cocos2d-html/" rel="tag">#cocos2d-html</a>
-          
-            <a href="/tags/javascript/" rel="tag">#javascript</a>
+            <a href="/tags/生活随笔/" rel="tag">#生活随笔</a>
           
         </div>
       
@@ -309,13 +313,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/06/11/cocos2d-x/" rel="next" title="Cocos2d-x 开发中遇到的坑们">
+                <i class="fa fa-chevron-left"></i> Cocos2d-x 开发中遇到的坑们
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/12/30/2016-2017/" rel="prev" title="回顾2016，展望2017">
-                回顾2016，展望2017 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -330,10 +334,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/06/11/cocos2d-x/"
-     data-title="Cocos2d-x 开发中遇到的坑们"
+        <div class="ds-share flat" data-thread-key="2016/12/30/2016-2017/"
+     data-title="回顾2016，展望2017"
      data-content=""
-     data-url="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/">
+     data-url="http://zhanghuanchong.github.io/2016/12/30/2016-2017/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -361,8 +365,8 @@
         
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/06/11/cocos2d-x/"
-           data-title="Cocos2d-x 开发中遇到的坑们" data-url="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/">
+      <div class="ds-thread" data-thread-key="2016/12/30/2016-2017/"
+           data-title="回顾2016，展望2017" data-url="http://zhanghuanchong.github.io/2016/12/30/2016-2017/">
       </div>
     
   </div>
@@ -485,7 +489,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u56DE_u987E2016"><span class="nav-number">1.</span> <span class="nav-text">回顾2016</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#u5B8C_u6210_u4E86_uFF1A"><span class="nav-number">1.0.1.</span> <span class="nav-text">完成了：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u6CA1_u6709_u5B8C_u6210_uFF1A"><span class="nav-number">1.0.2.</span> <span class="nav-text">没有完成：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5C55_u671B2017"><span class="nav-number">2.</span> <span class="nav-text">展望2017</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#u6211_u7684_u8BA1_u5212_uFF1A"><span class="nav-number">2.0.1.</span> <span class="nav-text">我的计划：</span></a></li></ol></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
