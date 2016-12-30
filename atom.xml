@@ -4,7 +4,7 @@
   <subtitle><![CDATA[随性记录生活、工作、学习]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://zhanghuanchong.github.io/"/>
-  <updated>2016-12-30T13:06:23.000Z</updated>
+  <updated>2016-12-30T13:33:10.000Z</updated>
   <id>http://zhanghuanchong.github.io/</id>
   
   <author>
@@ -15,33 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[回顾2016，展望2017]]></title>
-    <link href="http://zhanghuanchong.github.io/2016/12/30/2016-2017/"/>
-    <id>http://zhanghuanchong.github.io/2016/12/30/2016-2017/</id>
-    <published>2016-12-30T07:38:35.000Z</published>
-    <updated>2016-12-30T13:06:23.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="u5C55_u671B2017"><a href="#u5C55_u671B2017" class="headerlink" title="展望2017"></a>展望2017</h2><h4 id="u6211_u7684_u8BA1_u5212_uFF1A"><a href="#u6211_u7684_u8BA1_u5212_uFF1A" class="headerlink" title="我的计划："></a>我的计划：</h4><ul>
-<li>至少一个 <code>github</code> 项目 star 数 100+</li>
-<li><code>jetbrains-ssh-plugin</code> 和 <code>jetbrains-git-committer-switch-plugin</code> 项目发布</li>
-<li><code>hexo-desktop</code> 发布，采用 <code>Electron</code> 开发</li>
-<li>熟练使用 <code>Vue.js</code></li>
-<li>熟悉 <code>Unity3D</code> 及 <code>虚拟/增强现实技术</code></li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="u5C55_u671B2017"><a href="#u5C55_u671B2017" class="headerlink" title="展望2017"></a>展望2017</h2><h4 id="u6211_u7684_u8BA1_u5212_uFF1A">]]>
-    </summary>
-    
-      <category term="生活随笔" scheme="http://zhanghuanchong.github.io/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Cocos2d-x 开发中遇到的坑们]]></title>
     <link href="http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/"/>
     <id>http://zhanghuanchong.github.io/2016/06/11/cocos2d-x/</id>
     <published>2016-06-11T07:36:52.000Z</published>
-    <updated>2016-12-28T13:56:47.000Z</updated>
+    <updated>2016-12-30T13:33:10.000Z</updated>
     <content type="html"><![CDATA[<p>以下是我在使使用Cocos2d-x过程中遇到的坑, 在此做记录, 以备以后查询所需。也希望可以帮助大家。</p>
 <ul>
 <li>在继承PhysicsSprite时不要重写onExit函数, 否则会形成循环Release造成程序崩溃! 这个应该是Cocos2d-x的bug。。。</li>
@@ -59,6 +37,8 @@
       <category term="cocos2d-html" scheme="http://zhanghuanchong.github.io/tags/cocos2d-html/"/>
     
       <category term="javascript" scheme="http://zhanghuanchong.github.io/tags/javascript/"/>
+    
+      <category term="cocos2d-x" scheme="http://zhanghuanchong.github.io/categories/cocos2d-x/"/>
     
   </entry>
   
