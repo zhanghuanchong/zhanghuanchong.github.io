@@ -3,6 +3,8 @@ title:
   category: Categoria
   tag: Tag
 
+author: Author
+
 menu:
   home: Home
   archives: Arquivos
@@ -18,6 +20,7 @@ sidebar:
 post:
   sticky: Sticky
   posted: Postado em
+  modified: Updated at
   in: Em
   read_more: Ler mais
   untitled: Sem título

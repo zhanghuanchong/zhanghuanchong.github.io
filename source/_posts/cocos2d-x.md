@@ -1,5 +1,7 @@
 title: Cocos2d-x 开发中遇到的坑们
 date: 2016-06-11 15:36:52
+categories:
+    - cocos2d-x
 tags:
     - cocos2d-x
     - cocos2d-html
